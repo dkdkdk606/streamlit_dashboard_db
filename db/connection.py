@@ -24,6 +24,6 @@ from sqlalchemy import create_engine, text
 #     )
 
 
-def test_connection():
-    with get_engine().connect() as connection:
-        return connection.execute(text("SELECT 1")).scalar_one()
+# def test_connection():
+#     with get_engine().connect() as connection:
+#         return connection.execute(text("SELECT 1")).scalar_one()
